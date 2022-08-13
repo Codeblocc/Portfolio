@@ -4,8 +4,6 @@
     box-sizing: border-box;
 }
 
-/* Custom Properties, update these for your own design */
-
 :root {
     --ff-primary: 'Source Sans Pro', sans-serif;
     --ff-secondary: 'Source Code Pro', monospace;
@@ -381,6 +379,7 @@ header {
 
 .portfolio {
     display: grid;
+    margin: 1em;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
